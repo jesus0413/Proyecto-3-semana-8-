@@ -1,0 +1,10 @@
+.container--homepage {
+    height: 73vh;
+    background: #1A2980;  
+    background: linear-gradient(#348570, #d0d0d4); 
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
