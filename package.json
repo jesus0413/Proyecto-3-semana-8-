@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build":"webpack --mode production",
+    "build": "webpack --mode production",
     "start": "webpack server --open --mode development"
-},
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jesus0413/Proyecto-3-semana-8-.git"

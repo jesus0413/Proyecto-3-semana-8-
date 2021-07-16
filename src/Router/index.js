@@ -11,8 +11,8 @@ const routes = {
     '#results': Results
 };
 
-const router = async (router) => {
-    console.log(router);
+const router = async (route) => {
+    console.log(route);
 
   
     //Components
@@ -25,6 +25,6 @@ const router = async (router) => {
     const container = document.querySelector('#container');
     let render = routes[route] ? routes[route] : Homepage;
     container.innerHTML = await render();
-}
+};
 
 export default router;
