@@ -1,5 +1,5 @@
 import "./header.css";
-import image from "../../assets/img/github-gato.png";
+import image from "../../assets/img/logo-cocktail.png";
 
 const Header = () => {
     const view = `

@@ -1,8 +1,8 @@
 import "./nav.css";
 const Nav = () => {
   const view = `
-            <a href="#home">Inicio</a>
-            <a href="#results">Resultados</a>          
+            <a href="#home">Home</a>
+            <a href="#results">Results</a>          
       `;
   return view;
 };

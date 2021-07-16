@@ -1,12 +1,16 @@
 .nav {
     height: 8vh;
-    background-color: rgb(47, 146, 97);
+    background-color: rgb(11, 46, 121);
     display: flex;
     align-items: center;
+    justify-content: center;
     padding-left: 50px;
     gap: 20px;
 }
 
 .nav > a {
     color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman',serif;
+    padding-inline: 20px;
 }
